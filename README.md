@@ -1,122 +1,106 @@
-@@ -0,0 +1,121 @@
-<p align="center">
-  <img src="preview.png" alt="Rose Blooming from Code — Preview" width="720" />
-</p>
+# Interactive Pixel-Art Love Letter 💌
 
-<h1 align="center">🌹 Rose Blooming from Code</h1>
+A cute, interactive **pixel-art web letter** celebrating **1 month and 18 days of relationship** (12 October 2026). Built with pure HTML, CSS, and Vanilla JavaScript.
 
-<p align="center">
-  <em>A single div transforms into a beautiful blooming 3D rose — crafted entirely with HTML, CSS & JavaScript.</em>
-</p>
+Aim Cupid's bow, release to fire the arrow at the floating envelope, and a retro **"LOVE"** window pops open to reveal a cute pixel-art cat. Answer the question — and watch the screen fill with falling hearts and confetti! 🎯💖
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-Love-ff0044?style=for-the-badge&logo=heart&logoColor=white" alt="Made with Love" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-</p>
+[![Live Demo](https://img.shields.io/badge/Live_Demo-365daysus.netlify.app-ff5c8a?style=for-the-badge&logo=netlify)](https://365daysus.netlify.app/)
+&nbsp;
+![Built with HTML5 · CSS3 · JS](https://img.shields.io/badge/Built_with-HTML5_·_CSS3_·_JS-555?style=for-the-badge)
+&nbsp;
+![No Dependencies](https://img.shields.io/badge/Dependencies-None-2ea44f?style=for-the-badge)
+&nbsp;
+![License MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
----
+### 🌐 **[Open Live Demo: 365daysus.netlify.app →](https://365daysus.netlify.app/)**
 
-## ✨ What is this?
-
-A **cinematic, interactive love letter** disguised as a web page. Watch a rose grow from a single stem, bloom petal by petal in full 3D, and reveal a heartfelt message — all powered by pure front-end magic. No frameworks. No libraries. Just code and love.
+<sub>Created with love by **hxni** ([@the.cipher.stack](https://www.instagram.com/the.cipher.stack)) 💖</sub>
 
 ---
 
-## 🎬 Experience
+## 📸 Demo Screenshots
 
-| Step | What Happens |
-|------|-------------|
-| 🔒 **Loading Screen** | A frosted glassmorphic card shows a progress bar with poetic status messages |
-| 🌱 **Stem Grows** | The stem rises organically with leaves and thorns unfurling |
-| 🌹 **Rose Blooms** | 7 layers of petals open in a staggered 3D animation with a heartbeat pulse |
-| 🌸 **Petals Fall** | Delicate petals drift and sway across the viewport |
-| 💕 **Hearts Float** | SVG hearts rise gently from below |
-| 💌 **Love Letter** | A glassmorphic card reveals a message typed out character-by-character |
-| 🎵 **Ambient Music** | A built-in Web Audio synthesizer plays a soft chord progression |
+| Aim & Shoot (Cupid's Bow) | Interactive Letter Preview |
+| :---: | :---: |
+| ![Aim & Shoot Demo](demo.png) | ![Preview Screenshot](preview.jpg) |
 
 ---
 
-## 🖼️ Features
+## ✨ Features
 
-- 🎨 **Full 3D CSS Rose** — 49 individually animated petals across 7 layers with randomized jitter
-- 🧊 **Glassmorphism UI** — Frosted glass cards with `backdrop-filter`, inner light highlights, and warm glows
-- ⌨️ **Typewriter Letter** — Character-by-character typing animation with a blinking cursor — click to skip
-- 🎵 **Generative Audio** — Real-time Web Audio API synthesizer with arpeggiated chords and delay/feedback
-- ✨ **Click Sparkles** — Tap anywhere to burst emoji particles (❤, 💖, ✨, 💕, 🌸)
-- 📱 **Fully Responsive** — Scales gracefully from desktop to mobile
-- 🚫 **Zero Dependencies** — No frameworks, no build tools, no npm — just open `index.html`
+- 🏹 **Interactive Bow & Arrow Physics**: Aim with your mouse or finger, hold to charge tension, and release to loose Cupid's arrow. Supports keyboard controls (`Space` / `Enter`).
+- 🎯 **Target Hit Collision**: The envelope **only opens when hit by the arrow**. Missed shots trigger helpful hint prompts ("So close — try again ♡") and reset the bow for another try.
+- 💌 **Retro Pixel-Art Reveal**: Hitting the envelope opens a nostalgic pixel-art "LOVE" window featuring an animated cat holding a heart.
+- 😉 **Dodging "NO" Button**: A playful "NO" button that dodges your cursor/touch, while the "YES" button grows more tempting.
+- 🎉 **Confetti & Heart Rain Celebration**: Interactive particle cannons launch heart confetti high into the air with real gravity physics upon saying YES.
+- 📱 **100% Responsive & Mobile-Friendly**: Designed for desktop screens, mobile devices, and touch displays.
+- ⚡ **Zero Dependencies & Offline Ready**: 100% vanilla web technology with zero frameworks or build tooling.
+
+---
+
+## 🎮 How to Play
+
+1. **Aim** — Move your cursor (or touch and drag on mobile) to aim Cupid's bow.
+2. **Shoot** — Release (or single-click/tap) to fire the arrow at the envelope.
+3. **Hit the Envelope** — Upon a successful hit, the envelope wobbles and opens into the **LOVE** window.
+4. **Answer the Question** — Click **YES** (if you try to click **NO**, it dodges! 😉).
+5. **Celebrate** — Enjoy the floating hearts and confetti cannons. Click **✕** to replay.
 
 ---
 
 ## 🚀 Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/Hxni786/fun.git
+No installation or build tools required.
 
-# Open in your browser
-cd Rose
-start index.html        # Windows
-open index.html         # macOS
-xdg-open index.html     # Linux
+### Quick Start
+Simply **double-click `index.html`** in your File Explorer to open it directly in any browser.
+
+### Local Development Server
+Alternatively, serve the directory locally using Python:
+
+```bash
+# Run inside the project directory:
+python -m http.server 8000
+# → Open http://localhost:8000 in your browser
 ```
 
-Or simply **download the ZIP** and double-click `index.html`. That's it. ✅
+### Live Site
+The card is deployed live on Netlify:
+👉 **[https://365daysus.netlify.app/](https://365daysus.netlify.app/)**
 
 ---
 
 ## 📁 Project Structure
 
 ```
-Rose/
-├── index.html      # Markup & structure
-├── style.css       # All styling, animations & glassmorphism
-├── script.js       # Animation sequencing, audio synth & typewriter
-├── preview.png     # Preview image for README
-└── README.md       # You are here
+love-letter/
+├── index.html      # Main HTML structure & letter layout
+├── love.css        # Visual styling, pixel art, & animations
+├── love.js         # Interactive physics, archery engine, & confetti
+├── favicon.png     # Browser tab icon
+├── demo.png        # Live demo screenshot
+├── preview.jpg     # Screenshot preview
+└── textures/
+    └── grain.png   # Atmospheric background film-grain texture
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-| Technology | Usage |
-|-----------|-------|
-| **HTML5** | Semantic structure, SVG gradients |
-| **CSS3** | 3D transforms, keyframe animations, glassmorphism, custom properties |
-| **JavaScript** | DOM animation orchestration, Web Audio API synthesizer, typewriter engine |
-| **Google Fonts** | Playfair Display, Inter, Fira Code, Dancing Script |
+- **HTML5**: Semantic web document structure.
+- **CSS3**: Custom pixel typography (`Press Start 2P`, `Pixelify Sans`), Gingham pattern gradients, CSS transforms, and keyframe animations.
+- **Vanilla JavaScript**: Pure JS physics engine for projectile math, collision detection, and canvas sprite rendering.
 
 ---
 
-## 🎨 Design Highlights
+## 👤 Credits
 
-- **Color Palette** — Deep blacks (`#020002`) to rich crimsons (`#bf0028`) with warm pink accents (`#ff4d7a`)
-- **Glassmorphism** — `backdrop-filter: blur(30px) saturate(170%)` with translucent rose-tinted backgrounds
-- **Typography** — Serif elegance (Playfair Display) meets modern clarity (Inter) with monospace accents (Fira Code)
-- **Micro-animations** — Heartbeat pulse, floating emoji, swaying petals, blinking cursor, button shine effects
+- **Author / Designer**: **hxni**
+- **Instagram**: [@the.cipher.stack](https://www.instagram.com/the.cipher.stack)
 
 ---
 
-## 💡 Customization
+## 📄 License
 
-| What | Where |
-|------|-------|
-| Change the message | Edit the `<p class="letter-body">` sections in `index.html` |
-| Adjust typing speed | Modify the `speeds` array in `script.js` (lower = faster) |
-| Change rose colors | Update the `.petal-*` gradient classes in `style.css` |
-| Toggle music | Click the 🔊 button, or set `synth.muted = true` in `script.js` |
-
----
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <strong>Every petal blooms with love 🌹</strong>
-</p>
+This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and share it with love. ♡
